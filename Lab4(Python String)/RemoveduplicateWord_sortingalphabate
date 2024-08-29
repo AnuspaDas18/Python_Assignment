@@ -1,0 +1,3 @@
+words = input("Enter a whitespace-separated sequence of words: ")
+word_list = sorted(set(words.split()))
+print(" ".join(word_list))
